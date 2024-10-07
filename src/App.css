@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+body{
+  font-family: "Secular One";
+}
+header{
+  padding-top: 1.5em;
+  padding-left: 1em;
+  padding-bottom: 3em;
+  border-bottom: 10px solid #ff474c;
+}
+.reset{
+  position: relative;
+  top: 50%;
+  transform: translateY(20%);
+  display: inline-block;
+  background: #F7F7F7;
+  padding: 0.5em;
+  border-radius: 15px;
+}
+.reset img{
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+}
+.hdd{
+  padding-right: 20px;
+  float: right;
+}
+
+.main{
+  background: #F7F7F7;
+}
+.all{
+  background: #F7F7F7;
+}
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  
+}
+.button{
+  color: white;
+  flex: 0 0 33.3333%;
+  height: 110px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #ff474c;
+  margin: 5px;
+}
+.title{
+  text-align: center;
+}
+.subtitle{
+  text-align: center;
+}
+.textcon{
+  font-size: 24px;
+  margin-inline: auto;
+  background: #ff474c;
+  padding: 8px;
+  width: 80%;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+}
+.textcon p{
+  position: relative;
+  top: 50%;
+  transform: translateY(10%);
+  padding: 5px;
+}
+.inscont{
+  padding-right: 10px;
+}
+.alltxt{
+  position: relative;
+}
+.nobtn{
+  color: white;
+  flex: 1;
+  height: 110px;
+  padding: 15px;
+  border-radius: 10px;
+  background: black;
+  margin: 5px;
+}
+.otrbtns{
+  color: white;
+  flex: 1;
+  height: 110px;
+  padding: 15px;
+  border-radius: 10px;
+  background: black;
+  margin: 5px;
+}
+.otrbtnscont{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+}
